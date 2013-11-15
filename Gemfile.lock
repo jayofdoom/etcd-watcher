@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    etcd-rb (1.0.0.pre1)
+      httpclient (~> 2.3.0)
+      multi_json (~> 1.7.0)
+    httpclient (2.3.4.1)
+    multi_json (1.7.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  etcd-rb
