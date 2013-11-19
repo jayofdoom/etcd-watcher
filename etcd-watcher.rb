@@ -65,6 +65,8 @@ end
 process = Process.spawn(options[:cmd])
 @pid = process.to_i
 
+etcd_connect
+
 trap(17) {
   begin
     @client.delete(options[:key])
@@ -98,7 +100,6 @@ trap(15) {
   end
 }
 
-etcd_connect
 
 begin
   loop do

@@ -1,6 +1,6 @@
 #!/bin/bash
 
 for i in `seq 1 $1`; do
-  echo $i
+  echo "1 $1 2 $2 3 $3 4 $4"
   sleep 1;
 done
