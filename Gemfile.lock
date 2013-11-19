@@ -1,14 +1,20 @@
-GEM
-  remote: https://rubygems.org/
+GIT
+  remote: git://github.com/iconara/etcd-rb
+  revision: 0e372dd7ee1496c3e08e0577190a9acba1ac22ad
+  branch: master
   specs:
     etcd-rb (1.0.0.pre1)
       httpclient (~> 2.3.0)
-      multi_json (~> 1.7.0)
+      multi_json (~> 1.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
     httpclient (2.3.4.1)
-    multi_json (1.7.9)
+    multi_json (1.8.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  etcd-rb
+  etcd-rb!
